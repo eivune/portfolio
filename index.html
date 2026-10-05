@@ -20,10 +20,10 @@ section{padding:105px 0;border-bottom:1px solid var(--line)}.head{display:flex;j
 @media(max-width:800px){.menu{display:none}.hero{padding:85px 0 55px;min-height:auto}.hero-row,.head,.project-copy,.two,.screens,.contact{display:grid;grid-template-columns:1fr}.metrics,.card .metrics{grid-template-columns:1fr 1fr}.skills{grid-template-columns:1fr}.skill{border-right:0}.project-copy h3{font-size:34px}section{padding:75px 0}}
 
 .contact-heading-spacing{letter-spacing:0.02em;}
-</style>
+ .lang-switch{display:flex;gap:5px;align-items:center}.lang-switch button{background:none;border:0;color:#777;font:700 11px "DM Sans";padding:4px;cursor:pointer}.lang-switch button.active{color:#fff}.lang-sep{color:#444;font-size:10px}</style>
 </head>
 <body>
-<nav><div class="wrap nav"><a class="logo" href="#top">EA</a><div class="menu"><a href="#darbai">Darbai</a><a href="#apie">Apie mane</a><a href="#kompetencijos">Kompetencijos</a><a href="#kontaktai">Kontaktai</a></div><a class="btn" href="mailto:eivydas.alio@gmail.com">SUSISIEKTI ↗</a></div></nav>
+<nav><div class="wrap nav"><a class="logo" href="#top">EA</a><div class="menu"><a href="#darbai">Darbai</a><a href="#apie">Apie mane</a><a href="#kompetencijos">Kompetencijos</a><a href="#kontaktai">Kontaktai</a></div><div style="display:flex;align-items:center;gap:10px"><div class="lang-switch"><button id="ltBtn" class="active" onclick="setLang('lt')">LT</button><span class="lang-sep">|</span><button id="enBtn" onclick="setLang('en')">EN</button></div><a class="btn" href="mailto:eivydas.alio@gmail.com">SUSISIEKTI ↗</a></div></div></nav>
 
 <header class="hero" id="top"><div class="wrap"><div class="hero-name">Eivydas Aliošis</div><h1>Kūryba prasideda nuo geros idėjos.</h1><div class="hero-row"><a class="btn red" href="#darbai">PERŽIŪRĖTI DARBUS ↓</a></div></div></header>
 
@@ -42,5 +42,5 @@ section{padding:105px 0;border-bottom:1px solid var(--line)}.head{display:flex;j
 <section id="kompetencijos"><div class="wrap"><div class="eyebrow">Kompetencijos</div><h2>Sritys, kuriose galiu kurti vertę.</h2><div class="skills" style="margin-top:40px"><div class="skill"><strong>Reels &amp; Content</strong><p>Idėjos, hook’ai, scenarijai, filmavimas, montavimas ir Social Media adaptacija.</p></div><div class="skill"><strong>Social Media</strong><p>Instagram, TikTok turinio planavimas, publikavimas, captions ir vizualų atranka.</p></div><div class="skill"><strong>Marketingo strategija</strong><p>Auditorijos analizė, turinio krypties formavimas ir idėjų pritaikymas konkrečiam tikslui.</p></div><div class="skill"><strong>Meta Ads</strong><p>Praktinė patirtis su reklamos turiniu ir kampanijų logika.</p></div><div class="skill"><strong>Shopify / E-commerce</strong><p>Produktų administravimas, pateikimas, fotografija, aprašymai ir turinys.</p></div><div class="skill"><strong>Automobiliai / Ekstremalus sportas</strong><p>Asmeninis domėjimasis šiomis sritimis ir jų auditorijos supratimas.</p></div></div></div></section>
 
 <section id="kontaktai"><div class="wrap contact"><div><div class="eyebrow">Kontaktai</div><h2 class="contact-heading-spacing">Turi idėją? Pakalbėkim.</h2></div><div class="contact-list"><a href="mailto:eivydas.alio@gmail.com">Email <span>↗</span></a><a href="https://www.linkedin.com/in/Eivydas-Aliošis-15197b356" target="_blank">LinkedIn <span>↗</span></a><a href="https://www.instagram.com/eivune?stkn=bzNnc2plNHo5M20z&amp;utm_source=qr" target="_blank">Instagram <span>↗</span></a><a href="https://youtube.com/@eivune?si=yBI6c_QWnO95W2j4" target="_blank">YouTube <span>↗</span></a></div></div></section>
-</body>
+<script src="lang.js"></script></body>
 </html>
